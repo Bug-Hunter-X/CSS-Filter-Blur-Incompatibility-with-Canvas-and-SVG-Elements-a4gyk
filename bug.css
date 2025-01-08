@@ -1,0 +1,1 @@
+The CSS property `filter: blur()` doesn't work on some elements like `<canvas>` or `<svg>`.  This is because the filter effect is applied to the element's rendering context, not the element itself.  If the element doesn't have a rendering context that supports filters, the effect won't work.  Another potential issue might be conflicting styles or missing declarations.
