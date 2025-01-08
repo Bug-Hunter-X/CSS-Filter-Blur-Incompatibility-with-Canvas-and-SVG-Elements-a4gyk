@@ -1,0 +1,14 @@
+/* solution.css */
+
+/* Wrap the canvas/svg with a parent element */
+.blur-wrapper {
+  filter: blur(5px);
+}
+
+/* or if you want to work directly with the canvas using javascript */
+/* you will need to use a canvas api, this is not covered in this example */
+
+/* Example using wrapper to blur canvas */
+<div class="blur-wrapper">
+  <canvas id="myCanvas"></canvas>
+</div>
